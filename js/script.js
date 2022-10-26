@@ -41,6 +41,6 @@ eleBtnUp.addEventListener('click', function () {
 	listEleImg[activeIndex].classList.add('active');
 	eleBtnDown.classList.remove('hidden');
 	if (activeIndex === 0) {
-		eleBtnLeft.classList.add('hidden');
+		eleBtnUp.classList.add('hidden');
 	}
 });
